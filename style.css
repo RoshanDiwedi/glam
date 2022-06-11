@@ -240,8 +240,40 @@ ul.secondory-nav-list li{
     background-color: #1686be50;
 }
 #collapse .copse-one h3{
-    color: var(--color-btn-blue);
+    color: #1686be;
 }
+
+
+#collapse .copse-two{
+    background-color: #1686be50;
+}
+#collapse .copse-two h3{
+    color: #1686be;
+}
+
+
+#collapse .copse-three{
+    background-color: #1686be50;
+}
+#collapse .copse-three h3{
+    color: #1686be;
+}
+
+
+#collapse .copse-four{
+    background-color: #1686be50;
+}
+#collapse .copse-four h3{
+    color: #1686be;
+}
+
+#collapse .copse-five{
+    background-color: #1686be50;
+}
+#collapse .copse-five h3{
+    color: #1686be;
+}
+
 
 
 
