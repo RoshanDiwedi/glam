@@ -217,6 +217,11 @@ ul.secondory-nav-list li{
 }
 
 /* section collapse */
+
+.col-5{
+    padding: 15px;
+}
+
 .collapse-content-wrapper{
     text-align: center;
     padding-bottom: 150px;
@@ -229,6 +234,11 @@ ul.secondory-nav-list li{
 #collapse .text{
     display: none;
 }
+#collapse .text p{
+    margin-top: 30px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
 
 #collapse .copse-img{
     text-align: center;
@@ -239,43 +249,49 @@ ul.secondory-nav-list li{
 #collapse .copse-one{
     background-color: #1686be50;
 }
-#collapse .copse-one h3{
+#collapse .copse-one h3, #collapse .copse-one p{
     color: #1686be;
 }
 
 
 #collapse .copse-two{
-    background-color: #1686be50;
+    background-color: #f1a53a50;
 }
-#collapse .copse-two h3{
-    color: #1686be;
+#collapse .copse-two h3,#collapse .copse-two p{
+    color: #f1a53a;
 }
 
 
 #collapse .copse-three{
-    background-color: #1686be50;
+    background-color: #29408550;
 }
-#collapse .copse-three h3{
-    color: #1686be;
+#collapse .copse-three h3, #collapse .copse-three p{
+    color: #294085;
 }
 
 
 #collapse .copse-four{
-    background-color: #1686be50;
+    background-color: #cc333350;
 }
-#collapse .copse-four h3{
-    color: #1686be;
+#collapse .copse-four h3,#collapse .copse-four p{
+    color: #cc3333;
 }
 
 #collapse .copse-five{
-    background-color: #1686be50;
+    background-color: #52ab5a50;
 }
-#collapse .copse-five h3{
-    color: #1686be;
+#collapse .copse-five h3, #collapse .copse-five p{
+    color: #52ab5a;
 }
 
 
+#collapse div.active .text{
+    display: block !important;
+}
 
+#collapse div.active{
+    flex-basis: 40%;
+}
 
 
 /* media Query */

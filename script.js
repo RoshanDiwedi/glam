@@ -15,4 +15,11 @@ $(document).ready(function () {
   $(".video-popup p").on("click", function () {
     $(".video-popup").hide();
   });
+
+  $(".col-5").on("click",function(){
+    if(!$(this).hasClass("active")){
+      $(".col-5.active").removeClass("active");
+      $(this).addClass("active");
+    }
+  })
 });
