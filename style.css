@@ -236,6 +236,10 @@ ul.secondory-nav-list li{
     margin-top: 30px;
 }
 
+#collapse .copse-one{
+    background-color: #1686be50;
+}
 #collapse .copse-one h3{
     color: var(--color-btn-blue);
 }
+
