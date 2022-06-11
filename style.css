@@ -51,6 +51,21 @@ h1{
     text-transform: uppercase;
 }
 
+h2{
+    color: var(--color-btn-blue);
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
 a.btn-main {
     border-radius: 50px;
     background-color: var(--color-btn-orange);
@@ -66,6 +81,9 @@ a.btn-main {
     width: 50%;
 }
 
+.col-5{
+    width: 20%;
+}
 /* header Section */
 #header .main-container .logo img{
     max-width: 200px;
@@ -116,6 +134,11 @@ ul.secondory-nav-list li{
     border-radius: 50px;
     display: inline-block;
     padding: 7px 15px;
+    line-height: 1.5;
+}
+
+.btn:hover{
+    background-color: var(--color-btn-orange);
 }
 
 .secondory-nav img{
@@ -142,12 +165,77 @@ ul.secondory-nav-list li{
 .main-container .video::before{
     position: absolute;
     content: '';
-    background-image: url('./image/lotus.png');
-    left: 100%;
+    background-image: url(./image/lotus.png);
+    background-size: contain;
+    left: 77%;
     bottom: 0;
-    z-index: 1;
+    background-repeat: no-repeat;
+    z-index: 12;
+    width: 279px;
+    height: 180px;
 }
 
 .main-container .video img{
     width: 40%;
+}
+
+/* banner */
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* video popup */
+#video{
+    position: relative;
+}
+
+.video-popup {
+    background-color: var(--color-btn-orange);
+    box-shadow: 0px 10px 50px rgb(0 0 0 / 12%);
+    border-radius: 12px;
+    position: absolute;
+    z-index: 999;
+    max-width: 945px;
+    width: 100%;
+    padding: 20px 20px 60px 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.video-popup iframe{
+    margin-top: 40px;
+}
+
+.video-popup p{
+    color: var(--color-light);
+    font-size: 30px;
+    text-align: right;
+}
+
+/* section collapse */
+.collapse-content-wrapper{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.collapse-content-wrapper h2{
+    margin: 2px 0 8px 0;
+}
+
+#collapse .text{
+    display: none;
+}
+
+#collapse .copse-img{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#collapse .copse-one h3{
+    color: var(--color-btn-blue);
 }
